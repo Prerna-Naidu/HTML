@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 450px;
+    height: 600px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    width: 95%;
+    height: 60%;
+    padding-top: 20px;
+}

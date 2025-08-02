@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+      body{
+        background-color:#e2e7e6;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>REGISTRATION FORM </h1>
+  </header>
+  <main>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter FirstName" required>
+        <input type="text" placeholder="Enter MiddleName" required>
+        <input type="text" placeholder="Enter LastName" required>
+        <br><br>
+        <input type="number" placeholder="Enter Age" min="18" max="30" required>
+        <br><br>
+        Select your Gender
+        <br>
+        <label for="101">
+          <input type="radio" value="Female" name="Gender" id="101" required>Female
+        </label>
+        <label for="102">
+          <input type="radio" value="Male" name="Gender" id="102" required>Male
+        </label>
+        <label for="103">
+          <input type="radio" value="Others" name="Gender" id="103" required>Others
+        </label>
+        <br><br>
+        Enter your date of birth
+        <br>
+        <input type="date" placeholder="Enter Date of Birth" required>
+        <br><br>
+        <input type="tel" placeholder="Enter Phone No." minlength="10" maxlength="11" required>
+        <br><br>
+        Select your Semester
+        <br>
+        <label for="301">
+          <input type="radio" value="4th" name="Semester" id="301" required>4th
+        </label>
+        <label for="302">
+          <input type="radio" value="6th" name="Semester" id="302" required>6th
+          <br><br>
+        Choose your city
+        <br>
+        <select name="City" id="City" required>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+        <br><br>
+
+        Select Interested Course Domain
+        <br>
+        <label for="201">
+          <input type="checkbox" value="Python" name="Course" id="201" required>Python
+        </label>
+        <br>
+        <label for="202">
+          <input type="checkbox" value="Java" name="Course" id="202" required>Java
+        </label>
+        <br>
+        <label for="203">
+          <input type="checkbox" value="PHP" name="Course" id="203" required>PHP
+        </label>
+        <br>
+        <label for="204">
+          <input type="checkbox" value="C" name="Course" id="204" required>C
+        </label>
+        <br>
+        <label for="205">
+          <input type="checkbox" value="C++" name="Course" id="205" required>C++
+        </label>
+        <br><br>
+   </main>
+   <footer>
+   <input type="Submit" value="Submit">
+        <br>
+   </footer>      
+    </form>
+</body>
+</html>

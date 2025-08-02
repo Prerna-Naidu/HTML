@@ -1,0 +1,21 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+    font-family: arial;
+}
+th,td{
+    border-right: 2px solid black;
+    text-align: center;
+}
+h1{
+    text-align: left;
+}
+i{
+    padding-top: 10px;
+    font-size: 40px;
+}
+td{
+    padding-bottom: 40px;
+}

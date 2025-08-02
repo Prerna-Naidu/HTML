@@ -1,0 +1,35 @@
+#Signal{
+    width:100px;
+    height:300px;
+    background-color: black;
+    padding:20px 10px 50px 20px;
+}
+.color{
+    width:90px;
+    height:90px;
+    border-radius:50%
+}
+#Red{
+    background-color: red;
+    animation:Red 0.25s ease-in 0.5s infinite;
+}
+@keyframes Red{
+    from{background-color:red;}
+    to{background-color: black;}
+}
+#Yellow{
+    background-color: yellow;
+    animation:Yellow 0.25s ease-in 0.5s infinite;
+}
+@keyframes Yellow{
+    from{background-color: yellow;}
+    to{background-color: black;}
+}
+#Green{
+    background-color: rgb(5, 233, 5);
+    animation:Green 0.25s ease-in 0.5s infinite;
+}
+@keyframes Green{
+    from{background-color:rgb(5, 233, 5);}
+    to{background-color: black;}
+}

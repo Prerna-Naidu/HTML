@@ -1,0 +1,14 @@
+*{
+    font-family: arial;
+}
+div{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+li{
+    text-align: left;
+}
